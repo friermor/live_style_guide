@@ -1,0 +1,24 @@
+@import "mixins";
+
+li.color-swatch {
+  position: relative;
+  margin-left: 42px;
+  margin-bottom: 21px;
+  list-style: none;
+  &:before {
+    position: absolute;
+    height: 21px;
+    width: 21px;
+    content: " ";
+    left: -32px;
+  }
+
+  &.main-blue:before { background: $main-blue; }
+  &.highlight-blue:before { background: $highlight-blue; }
+  &.shadow-blue:before { background: $shadow-blue; }
+  &.error-red:before { background: $error-red; }
+  &.font-black:before { background: $font-black; }
+  &.font-dark-grey:before { background: $font-dark-grey; }
+  &.font-light-grey:before { background: $font-light-grey; }
+}
+

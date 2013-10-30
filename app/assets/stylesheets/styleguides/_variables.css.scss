@@ -1,3 +1,14 @@
 // Typography
 $base-font-family: 'Source Sans Pro', sans-serif;
 $base-font-size: 15px;
+
+//Colors
+$main-blue: #0E51A7;
+$highlight-blue: lighten($main-blue, 5%);
+$shadow-blue: darken($main-blue, 5%);
+
+$error-red: #FE3500;
+
+$font-black: #333;
+$font-dark-grey: #666;
+$font-light-grey: #999;
