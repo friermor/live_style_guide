@@ -1,0 +1,8 @@
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+  df: David Friermor; dfriermor
+  mm: Michael McCormick; mc
+  mc: Meagan Cooney;
+email:
+  prefix: pair
+  domain: pivotallabs.com
