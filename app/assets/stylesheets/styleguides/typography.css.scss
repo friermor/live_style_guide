@@ -1,0 +1,29 @@
+@import "mixins";
+
+body, h1, h2, h3, h4, h5, h6, p, input, label {
+  @include base-font;
+}
+
+h1, .h1 {
+  @include base-font($base-font-size + 18);
+}
+
+h2, .h2 {
+  @include base-font($base-font-size + 15);
+}
+
+h3, .h3 {
+  @include base-font($base-font-size + 12);
+}
+
+h4, .h4 {
+  @include base-font($base-font-size + 9);
+}
+
+h5, .h5 {
+  @include base-font($base-font-size + 6);
+}
+
+h6, .h6 {
+  @include base-font($base-font-size + 3);
+}

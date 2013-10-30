@@ -1,0 +1,8 @@
+@import "variables";
+
+@mixin base-font($font-size: $base-font-size){
+  font-family: $base-font-family;
+  font-weight: 400;
+  line-height: $font-size + 6;
+  font-size: $font-size;
+}
